@@ -1,0 +1,48 @@
+{
+  "UseDatabase": false,
+  "Connection": {
+    "Host": "localhost",
+    "Username": "root",
+    "Password": "password",
+    "Database": "radar_info"
+  },
+  "Track": {
+    "PlaneSY": 0,
+    "TailSY": false,
+    "MaxSpeed": 2000.0
+  },
+  "PositionAndScale": {
+    "Point": 0,
+    "Altitude": 2,
+    "Speed": 1,
+    "Bearing": 0,
+    "QuickScale": false
+  },
+  "EnableRadarInterval": false,
+  "RadarInterval": {
+    "Radius1": 0,
+    "Radius2": 0,
+    "Radius3": 0,
+    "Radius4": 0
+  },
+  "SerialPort": {
+    "Recieving": {
+      "Enable": false,
+      "Port": "",
+      "BitPerSecond": 9600,
+      "DataBits": 8,
+      "Parity": "None",
+      "StopBits": "One",
+      "FlowControl": "None"
+    },
+    "Sending": {
+      "Enable": false,
+      "Port": "",
+      "BitPerSecond": 9600,
+      "DataBits": 8,
+      "Parity": "None",
+      "StopBits": "One",
+      "FlowControl": "None"
+    }
+  }
+}
